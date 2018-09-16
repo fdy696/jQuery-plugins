@@ -2,7 +2,7 @@
 这是一个jQuery插件集合, 包括 回到顶部插件、搜索插件、轮播插件、瀑布流布局插件、tab切换插件。
 
 
-###jQuery Plugins
+### jQuery Plugins
 
 这是一个jQuery插件集合, 包括 回到顶部插件、懒加载插件、轮播插件、stickUp插件、瀑布流布局插件、tab切换插件。
 
