@@ -9,7 +9,7 @@
 所有的插件都采用面向对象的方式编写，使用方便，有一定的扩展性。
 
 **1、回到顶部**
- 预览：[回到顶部效果]((https://fdy696.github.io/jQuery-plugins/gotop/gotop.html))
+ 预览：[回到顶部效果](https://fdy696.github.io/jQuery-plugins/gotop/gotop.html)
 
 Usage
 在要包含回到顶部元素的容器上调用gotop方法即可，该插件会自动添加目标元素，可以自己定制样式。
@@ -37,7 +37,7 @@ $(".carousel").slide();
 ```
 **4、tab切换**
 
-预览：[tab切换效果](https://fdy696.github.io/jQuery-plugins/tabchange/tab.html)
+预览：[tab切换效果]("https://fdy696.github.io/jQuery-plugins/tabchange/tab.html")
 
 Usage
 在指定容器上调用switchTab方法即可。
@@ -49,4 +49,14 @@ $(".wrap").switchTab();
 // 单个启动
 $(".wrap1").switchTab();
 $(".wrap2").switchTab();
+```
+
+**5、搜索框UI**search/search.html
+
+预览：[搜索框UI]("https://fdy696.github.io/jQuery-plugins/search/search.html")
+Usage
+在指定容器上调用switchTab方法即可。
+
+```
+$(".search-box").SearchUi();
 ```
