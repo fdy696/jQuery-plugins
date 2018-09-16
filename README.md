@@ -37,7 +37,7 @@ $(".carousel").slide();
 ```
 **4、tab切换**
 
-预览：[tab切换效果]("https://fdy696.github.io/jQuery-plugins/tabchange/tab.html")
+预览：[tab切换效果](https://fdy696.github.io/jQuery-plugins/tabchange/tab.html)
 
 Usage
 在指定容器上调用switchTab方法即可。
@@ -53,7 +53,7 @@ $(".wrap2").switchTab();
 
 **5、搜索框UI**search/search.html
 
-预览：[搜索框UI]("https://fdy696.github.io/jQuery-plugins/search/search.html")
+预览：[搜索框UI](https://fdy696.github.io/jQuery-plugins/search/search.html)
 Usage
 在指定容器上调用switchTab方法即可。
 
