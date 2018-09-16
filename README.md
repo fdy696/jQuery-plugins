@@ -9,7 +9,7 @@
 所有的插件都采用面向对象的方式编写，使用方便，有一定的扩展性。
 
 **1、回到顶部**
- 预览：回到顶部效果
+ 预览：[回到顶部效果]((https://fdy696.github.io/jQuery-plugins/gotop/gotop.html))
 
 Usage
 在要包含回到顶部元素的容器上调用gotop方法即可，该插件会自动添加目标元素，可以自己定制样式。
@@ -25,7 +25,7 @@ Usage
 $(".container").find('img').lazyLoad();
 ```
 **3、轮播**
-预览：轮播效果
+预览：[轮播效果](https://fdy696.github.io/jQuery-plugins/carousel/carousel.html)
 
 简介
 无限滚动的轮播插件，支持点击跳转，自动滚动。需要使用和Demo同样的HTML结构以及一些必要的CSS。
@@ -37,7 +37,7 @@ $(".carousel").slide();
 ```
 **4、tab切换**
 
-预览：tab切换效果
+预览：[tab切换效果](https://fdy696.github.io/jQuery-plugins/tabchange/tab.html)
 
 Usage
 在指定容器上调用switchTab方法即可。
