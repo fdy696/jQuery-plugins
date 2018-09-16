@@ -1,69 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>GO_TOP</title>
+	<meta charset="UTF-8">
+  <title>回到顶部动画</title>
   <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-  <style>
-    * {padding: 0;margin: 0}
-    .sidebar {position: fixed;width: 38px;top: 0;bottom: 0;right: 0;background-color: #ccc}
-    .sidebar-content {width: 38px;height: 550px;border-bottom: 1px dashed red}
-    .content li {
-      height: 30px;
-      line-height: 30px;
+	<style type="text/css">		
+		#container div {
+			margin: 0 auto;
+			width:80%;
+			background: red;			
+			height: 618px;
       text-align: center;
-      border-bottom: 1px solid #ccc;
-    }
+      color: #fff;
+      line-height: 600px;
+      font-size: 80px;
+		}
 
-    .content li:nth-child(odd){
-      background: lightblue;
+		#container div:nth-child(odd){
+			background:green;
+			}
+
+		.go-top {
+			position: fixed;
+			right: 20px;
+			bottom: 20px;
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			background: orange;
+			text-align: center;
+			line-height: 50px;
+			-webkit-user-select: none;
+			display: none;
+			opacity: 0.5;
+		}
+    .go-top:hover {
+      opacity: 1;
     }
-    
-    
-  </style>
+	</style>
 </head>
-<body>
-  <div class="content">
-    <ul>
-        <li>content1</li>
-        <li>content2</li>
-        <li>content3</li>
-        <li>content4</li>
-        <li>content5</li>
-        <li>content6</li>
-        <li>content7</li>
-        <li>content8</li>
-        <li>content9</li>
-        <li>content10</li>
-        <li>content11</li>
-        <li>content12</li>
-        <li>content13</li>
-        <li>content14</li>
-        <li>content15</li>
-        <li>content16</li>
-        <li>content17</li>
-        <li>content18</li>
-        <li>content19</li>
-        <li>content20</li>
-        <li>content21</li>
-        <li>content22</li>
-        <li>content23</li>
-        <li>content24</li>
-        <li>content25</li>
-        <li>content26</li>
-        <li>content27</li>
-        <li>content28</li>
-        <li>content29</li>
-        <li>content30</li>
-    </ul>
-  </div>
-    <div class="sidebar">
-      <ul>
-        <li class="sidebar-content"></li>
-      </ul>
-    </div>
-    <script src="goTop.js"></script>
+<body>	
+	<div id="container">
+		<div>1楼</div>
+		<div>2楼</div>
+		<div>3楼</div>
+		<div>4楼</div>
+		<div>5楼</div>
+		<div>6楼</div>
+		<div>7楼</div>
+		<div>8楼</div>
+	</div>
+<script src="goTop.js"></script>
 </body>
 </html>
